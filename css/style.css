@@ -1,6 +1,10 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
@@ -18,3 +22,76 @@ body {
 }
 
 /* Write all remaining styles here */
+
+#header{
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+#header h1 {
+  font-size: 80px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-family: 'Baskerville', serif;
+  padding-bottom: 5px;
+}
+
+#header a {
+  text-decoration: none;
+  color: rgb(152,173,166);
+}
+
+#header a:hover{
+  color: gray;
+  cursor: pointer;
+}
+
+#necklace{
+  border: 5px solid rgb(152,173,166);
+}
+
+h2{
+  color: rgb(111,127,122);
+  font-size: 2em;
+}
+
+p{
+  color: #555;
+  font-size: 1em;
+  margin: 0 0 20px 0
+}
+
+#paragraphSecond a{
+  color: #1783bb;
+  text-decoration: none;
+}
+
+#magazinesAndPress{
+  margin-bottom: 20px;
+}
+
+#magazinesAndPress img{
+  border: 5px #ccc solid;
+  padding: 1px;
+}
+
+#magazinesAndPress img:hover{
+  border: 5px solid gray;
+  padding: 1px;
+}
+
+footer{
+  text-align: right;
+}
+
+footer p {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 0.8em;
+}
+
+
+
+
+
